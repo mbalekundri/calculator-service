@@ -1,4 +1,4 @@
-package com.mphasis.calculatorapi;
+package com.mphasis.calculator.api;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
@@ -9,8 +9,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.mphasis.calculator.api.controller.CalculatorController;
 
 @SpringBootTest
-class CalculatorAwsPipeline1ApplicationTests {
-	
+class CalculatorServiceApplicationTests {
+
 	@Autowired
 	private CalculatorController calculatorController;
 
